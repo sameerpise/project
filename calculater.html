@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .cal_Body{
+            background-color:cadetblue;
+            width: 100vw;
+            height: 100vh;
+        }
+        .body{
+            position: relative;
+            top: 4rem;
+            background-color:burlywood;
+            width: 30vw;
+            height: 50vh;
+            border-radius: 1rem;
+            
+        }
+        .main_body{
+            display: grid;
+            grid-template-areas: 
+            'input input input input';
+
+            grid-gap: 10px;
+        }
+        #input{
+            grid-area: input;
+        }
+        /* #ANS{
+            grid-area: 
+        }  */
+        #input{
+            position: relative;
+            top: 10px;
+            padding: 20px;
+            width: 80%;
+        }
+        .box-1{
+            position: relative;
+            top: 20px;
+        }
+        button{
+            padding: 10px;
+        }
+        input[type="text"]{
+              text-align: right;
+        }
+       
+    </style>
+</head>
+<body>
+    <center>
+      
+        <Div class="cal_Body">
+            <div class="body">
+            <div class="Screen">
+                <input type="text" id="input" >
+            </div>
+            <div class="main_body">
+                <div class="box-1" id="box-1">
+                    <button class="btn">Mrc</button>
+                </div>
+                <div class="box-1">
+                    <button class="btn">M-</button>
+                </div>
+                <div class="box-1">
+                    <button class="btn">M+</button>
+                </div>
+                <div class="box-1">
+                    <button class="btn">/</button>
+                </div>
+
+
+
+
+                <div class="box-1" id="box-1">
+                    <button class="btn">7</button>
+                </div>
+                <div class="box-1">
+                    <button class="btn">8</button>
+                </div>
+                <div class="box-1">
+                    <button class="btn">9</button>
+                </div>
+                <div class="box-1">
+                    <button class="btn">*</button>
+                </div>
+                <div class="box-1">
+                    <button class="btn">4</button>
+                </div>
+                <div class="box-1">
+                    <button class="btn">5</button>
+                </div>
+                <div class="box-1">
+                    <button class="btn">6</button>
+                </div>
+                <div class="box-1">
+                    <button class="btn">-</button>
+                </div>
+                <div class="box-1">
+                    <button class="btn">1</button>
+                </div>
+                <div class="box-1">
+                    <button class="btn">2</button>
+                </div>
+                <div class="box-1">
+                    <button class="btn">3</button>
+                </div>
+                <div class="box-1 plus">
+                    <button class="btn">+</button>
+                </div>
+                <div class="box-1">
+                    <button class="btn">0</button>
+                </div>
+                <div class="box-1">
+                    <button class="btn">.</button>
+                </div>
+                <div class="box-1">
+                    <button class="btn">C</button>
+                </div>
+                <div class="box-1">
+                    <button class="btn">=</button>
+                </div>
+               
+            </div>
+        </div>
+        </Div>
+      
+
+    </center>
+</body>
+</html>
